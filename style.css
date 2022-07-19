@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@700&display=swap');
+
+.m1 {
+    display: none;
+}
+
+/* header/ */
+
+.txt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    borders: 1px solid black;
+}
+
+.up-right {
+    display: flex;
+    justify-content: space-between;
+    borders: 1px solid black;
+    align-items: center;
+}
+
+.head1-h3 {
+    borders: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head1-h3s {
+    borders: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+
+/* section1 */
+
+.head2-h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+}
+
+.para1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.btn1 {
+    background-color: #E02C6D;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 44px;
+    text-decoration: none;
+}
+
+.btn1-p {
+    margin-top: 30px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-img {
+    display: flex;
+    justify-content: space-between;
+    borders: 1px solid black;
+    margin-top: 100px;
+}
+
+.bd {
+    width: 80vw;
+}
+
+.bds {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    borders: 1px solid black;
+}
+
+.sec-c1 {
+    margin-bottom: 250px;
+    borders: 1px solid black;
+}
+
+
+/* section2 */
+
+.sec2-txt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+
+.sec3-txt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec2-h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fa-star-half-stroke,
+.fa-star {
+    color: goldenrod;
+    font-size: 12px;
+
+}
+
+.star1 {
+    margin-top: 10px;
+}
+
+.para2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.flex4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.border1 {
+    justify-content: center;
+    display: flex;
+}
+
+.sec-c2 {
+    borders: 1px solid black;
+}
+
+.btn2 {
+    color: palevioletred;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.see {
+    text-align: end;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+/* section3 */
+
+.sec3-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    margin-top: 0px;
+}
+
+.para3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(112, 107, 107);
+}
+
+.btn3 {
+    background-color: #E02C6D;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+
+}
+
+.okay {
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-around;
+    borders: 1px solid black;
+    align-items: center;
+    margin-top: 200px;
+}
+
+/* footer */
+
+.foot-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.para4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-youtube,
+.fa-globe {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #302126;
+}
+
+.hmm {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    borders: 1px solid rgb(37, 29, 29);
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(37, 35, 35);
+}
+
+header {
+    borders: 1px solid black;
+}
+
+
+/* media queries  */
+
+@media only screen and (max-width: 600px) {
+
+    .m1 {
+        display: block;
+        borders: 1px solid black;
+    }
+
+    .bds {
+        margin-top: 0px;
+    }
+
+    .bd {
+        borders: 5px solid black;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .head1-h3 {
+        display: none;
+    }
+
+    .txt {
+        font-size: 15px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .head1-h3s {
+        margin-top: 0px;
+
+    }
+
+    .up-right {
+        justify-content: end;
+        margin-bottom: 0px;
+    }
+
+    .head1-h3s {
+        margin-bottom: 0px;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+
+
+
+    .rna {
+        width: 100%;
+    }
+
+    .rna2 {
+        display: flex;
+        align-items: center;
+        borders: 3px solid brown;
+        justify-content: space-around;
+    }
+
+    .head2-h3 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .para1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn1-p {
+        text-align: center;
+    }
+
+    .sec1-img {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(4, 0.5fr);
+        column-gap: 5px;
+        row-gap: 5px;
+        borders: 1px solid black;
+    }
+
+    .n-size {
+        width: 70%;
+    }
+
+    .flex4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+
+    .jamela {
+        borders: 3px solid black;
+        width: 200px;
+    }
+
+    .ok1 {
+        width: 200px;
+    }
+
+    .border1 {
+        margin-bottom: 10px;
+    }
+
+    .flex3 {
+        flex-direction: column;
+    }
+
+    .sec3-h1 {
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .para3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .okay {
+        justify-content: center;
+        display: flex;
+    }
+
+    .foot-h1 {
+        font-size: 18px;
+    }
+
+    .para4 {
+        font-size: 12px;
+    }
+
+    .fa-instagram,
+    .fa-twitter,
+    .fa-youtube,
+    .fa-globe {
+        font-size: 20px;
+    }
+
+    .txt {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
